@@ -15,7 +15,7 @@ A robust Laravel package for implementing video calling functionality using WebR
 ## Requirements
 
 - PHP 8.1 or higher
-- Laravel 10.x
+- Laravel 11.31
 - Laravel Reverb for WebSocket support
 - Modern browser with WebRTC support
 
