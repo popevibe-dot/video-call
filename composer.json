@@ -1,5 +1,5 @@
 {
-    "name": "kpr/video-call",
+    "name": "pkc/video-call",
     "description": "Laravel video calling package using WebRTC and Laravel Reverb for real-time communication",
     "type": "library",
     "keywords": [
@@ -27,13 +27,13 @@
     },
     "autoload": {
         "psr-4": {
-            "kpr\\VideoCall\\": "src/"
+            "pkc\\VideoCall\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "kpr\\VideoCall\\VideoCallServiceProvider"
+                "pkc\\VideoCall\\VideoCallServiceProvider"
             ]
         }
     },
