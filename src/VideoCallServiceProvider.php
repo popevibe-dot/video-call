@@ -1,6 +1,6 @@
 <?php
 
-namespace kpr\VideoCall;
+namespace pkc\VideoCall;
 
 use Illuminate\Support\ServiceProvider;
 

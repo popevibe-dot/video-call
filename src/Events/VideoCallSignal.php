@@ -1,6 +1,6 @@
 <?php
 
-namespace kpr\VideoCall\Events;
+namespace pkc\VideoCall\Events;
 
 use Illuminate\Broadcasting\InteractsWithSockets;
 use Illuminate\Broadcasting\PrivateChannel;

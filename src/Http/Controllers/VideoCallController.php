@@ -1,6 +1,6 @@
 <?php
 
-namespace kpr\VideoCall\Http\Controllers;
+namespace pkc\VideoCall\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
@@ -26,7 +26,7 @@ class VideoCallController extends Controller
         $signal = $request->input('signal');
         
         // Broadcast the signal to the target user using Laravel Reverb
-        broadcast(new \kpr\VideoCall\Events\VideoCallSignal(
+        broadcast(new \pkc\VideoCall\Events\VideoCallSignal(
             $targetUserId,
             $user->id,
             $signal
