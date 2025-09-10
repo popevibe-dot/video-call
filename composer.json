@@ -1,5 +1,5 @@
 {
-    "name": "popevibe-dot/video-call",
+    "name": "pkc/video-call",
     "description": "Laravel video calling package using WebRTC and Laravel Reverb for real-time communication",
     "type": "library",
     "keywords": [
